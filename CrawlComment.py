@@ -141,7 +141,7 @@ class GetComment(Spider):
     name = "comment"
     # 打开数据库
     try:
-        db = pymysql.connect(host="localhost", user="root", password="wanghao0116", db="scrapy", port=3306)
+        db = pymysql.connect(host="localhost", user="root", password=" ", db="scrapy", port=3306)
         cursor = db.cursor()
         print("数据库打开成功")
     except:
